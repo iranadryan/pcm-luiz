@@ -3,7 +3,7 @@ import { BrowserRouter } from 'react-router-dom';
 import { App } from './components/App';
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
-  <BrowserRouter>
+  <BrowserRouter basename="pcm-luiz">
     <App />
   </BrowserRouter>,
 );
